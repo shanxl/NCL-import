@@ -7,7 +7,7 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/contributed.ncl"
 load "THE_PATH_OF_MY_SCRIPT.ncl"
 ```
-With "NCL-import", you can write more clean code:
+With "NCL-import", you can write cleaner code:
 
 ```
 import("gsn_code")

@@ -19,6 +19,8 @@ import("MY_SCRIPT")
 1. Set [NCL_DEF_SCRIPTS_DIR][1] environment variable
 2. Put _aaa.ncl_ in NCL_DEF_SCRIPTS_DIR
 
+## Scripts
+NCL scripts in scripts/ directory are functions I use to make writing NCL code easier and faster. To use one of these scripts, just *import* it. Well, I will write documentation for these scripts later.
 
 ## Known Issues
 1. Scripts with dependencies should be imported one by one in order, e.g., "gsn_csm" depends on "gsn_code".

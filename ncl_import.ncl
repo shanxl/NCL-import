@@ -19,7 +19,7 @@ DEF_SCRIPTS_DIRS  = (/"$NCL_DEF_SCRIPTS_DIR/../scripts/", \
                       "$NCARG_ROOT/lib/ncarg/nclscripts/csm/", \
                       "$NCARG_ROOT/lib/ncarg/nclscripts/contrib/", \
                       "$NCARG_ROOT/lib/ncarg/nclscripts/wrf/"/)
-IMPORTED_SCRIPTS = (/"aaa"/)
+IMPORTED_SCRIPTS = (/"ncl_import"/)
 
 ; push an script to IMPORTED_SCRIPTS 
 undef("push_script")
